@@ -89,6 +89,7 @@ section{
 /*About*/
 #about ul{
   margin-bottom: 30px;
+  padding: 0;
 }
 
 
@@ -112,6 +113,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 margin-bottom: 50px;
+padding: 0;
 }
 #works li{
   width: 31%;
@@ -119,10 +121,12 @@ margin-bottom: 50px;
 }
 
 /*NEWS*/
+.news-1{
+  display: flex;
+}
 
 #news dl{
-  display: flex;
-  flex-wrap: wrap;
+
  border-top: solid 1px #c8c8c8;
   margin-bottom: 20px;
 }
@@ -140,25 +144,44 @@ margin-bottom: 50px;
 }
 /*contact*/
 
-
+#contact dl{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+}
 #contact dt{
-  width: 15%;
-
+  width: 100%;
 }
 #contact dd{
-  width: 85%;
+  width: 100%;
   margin-bottom: 10px;
 }
+ input{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+  border: solid 1px #c8c8c8;
+}
+
+
+
 #contact dd input{
   width: 100%;
   border: solid 1px #c8c8c8;
   padding: 10px;
-
 }
-#contact dd textarea{
+.wrapper textarea{
   height: 10rem;
-  
+ 
 }
+.contact-1{
+  display: flex;
+}
+
+
+
 #contact .button{
   text-align: center;
 }
@@ -175,6 +198,7 @@ padding: 15px 0;
 border: solid 1px black;
 
 }
+
 
 /*footer*/
 
